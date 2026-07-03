@@ -1,0 +1,77 @@
+.recent-container{
+
+    margin-top:30px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.1);
+
+}
+
+.recent-container h2{
+
+    color:#1e3a8a;
+
+    margin-bottom:20px;
+
+}
+
+.recent-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px;
+
+    margin-bottom:15px;
+
+    background:#f8fafc;
+
+    border-radius:10px;
+
+    border-left:6px solid #2563eb;
+
+}
+
+.status{
+
+    color:white;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    font-weight:bold;
+
+}
+
+.status.applied{
+
+    background:#2563eb;
+
+}
+
+.status.interview{
+
+    background:#f59e0b;
+
+}
+
+.status.selected{
+
+    background:#10b981;
+
+}
+
+.status.rejected{
+
+    background:#ef4444;
+
+}

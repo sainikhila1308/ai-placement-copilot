@@ -1,0 +1,135 @@
+.dashboard-page{
+
+    display:flex;
+
+    min-height:100vh;
+
+    background:#f5f8ff;
+
+}
+
+.dashboard{
+
+    margin-left:270px;
+
+    flex:1;
+
+    padding:40px;
+
+}
+
+.quick-actions-section{
+
+    margin-top:30px;
+
+}
+
+.dashboard-bottom{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:25px;
+
+    margin-top:30px;
+
+}
+/* TABLETS */
+
+@media (max-width: 1200px){
+
+    .dashboard{
+
+        margin-left:0;
+
+        padding:25px;
+
+    }
+
+    .dashboard-top{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .dashboard-bottom{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
+/*  MOBILE  */
+
+@media (max-width:768px){
+
+    .dashboard{
+
+        padding:18px;
+
+    }
+
+    .dashboard-header h1{
+
+        font-size:38px;
+
+    }
+
+    .dashboard-header p{
+
+        font-size:16px;
+
+    }
+
+}
+@media (max-width: 992px){
+
+    .dashboard{
+
+        margin-left:90px;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .dashboard{
+
+        margin-left:0;
+
+        padding:20px;
+
+    }
+
+}
+.dashboard-content{
+
+    width:100%;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .sidebar{
+
+        display:none;
+
+    }
+
+    .dashboard{
+
+        margin-left:0;
+
+        width:100%;
+
+        padding:20px;
+
+    }
+
+}

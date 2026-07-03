@@ -1,0 +1,301 @@
+
+
+.ai-page{
+
+    padding:40px 20px;
+
+}
+
+.ai-hero{
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+}
+
+.ai-hero h1{
+
+    font-size:48px;
+
+    color:#1e3a8a;
+
+    margin-bottom:15px;
+
+}
+
+.ai-hero p{
+
+    font-size:20px;
+
+    color:#666;
+
+    max-width:750px;
+
+    margin:auto;
+
+    line-height:1.6;
+
+}
+.ai-container{
+
+    max-width:1100px;
+    margin:auto;
+
+}
+
+.ai-form{
+
+    background:white;
+    padding:30px;
+    border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    margin-bottom:35px;
+
+}
+
+.ai-form h2{
+
+    color:#1e3a8a;
+    margin-bottom:25px;
+
+}
+
+.ai-group{
+
+    display:flex;
+    flex-direction:column;
+    margin-bottom:20px;
+
+}
+
+.ai-group label{
+
+    font-weight:bold;
+    margin-bottom:8px;
+
+}
+
+.ai-group input,
+.ai-group textarea{
+
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+    transition:.25s;
+
+}
+
+.ai-group input:focus,
+.ai-group textarea:focus{
+
+    border-color:#2563eb;
+    box-shadow:0 0 8px rgba(37,99,235,.2);
+
+}
+
+.ai-group textarea{
+
+    resize:vertical;
+    min-height:220px;
+
+}
+
+.ai-create-btn{
+
+    width:100%;
+    border:none;
+    padding:16px;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.ai-create-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.sessions-title{
+
+    color:#1e3a8a;
+    margin-bottom:20px;
+
+}
+
+.session-card{
+
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:20px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+    transition:.25s;
+
+}
+
+.session-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.session-card h3{
+
+    color:#1e3a8a;
+    margin-bottom:12px;
+
+}
+
+.session-buttons{
+
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+
+}
+
+.open-btn{
+
+    flex:1;
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:8px;
+    cursor:pointer;
+
+}
+
+.delete-btn{
+
+    background:#ef4444;
+    color:white;
+    border:none;
+    padding:12px 18px;
+    border-radius:8px;
+    cursor:pointer;
+
+}
+
+.empty-ai{
+
+    background:white;
+    padding:60px;
+    border-radius:15px;
+    text-align:center;
+    color:#777;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+/* ===========================
+   TABLET
+=========================== */
+
+@media (max-width:1024px){
+
+    .ai-page{
+
+        padding:30px 20px;
+
+    }
+
+    .ai-hero h1{
+
+        font-size:40px;
+
+    }
+
+    .ai-hero p{
+
+        font-size:18px;
+
+    }
+
+}
+
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width:768px){
+
+    .ai-page{
+
+        margin-top:90px;
+        padding:20px 15px;
+
+    }
+
+    .ai-hero{
+
+        margin-bottom:25px;
+
+    }
+
+    .ai-hero h1{
+
+        font-size:32px;
+        line-height:1.3;
+
+    }
+
+    .ai-hero p{
+
+        font-size:16px;
+        line-height:1.6;
+
+    }
+
+    .ai-form{
+
+        padding:20px;
+
+    }
+
+    .ai-group textarea{
+
+        min-height:170px;
+
+    }
+
+    .ai-create-btn{
+
+        font-size:16px;
+
+    }
+
+    .session-card{
+
+        padding:18px;
+
+    }
+
+    .session-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .open-btn,
+    .delete-btn{
+
+        width:100%;
+
+    }
+
+    .empty-ai{
+
+        padding:35px 20px;
+
+    }
+
+}

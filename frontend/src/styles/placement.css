@@ -1,0 +1,33 @@
+.placement-page{
+
+    min-height:100vh;
+
+    background:#eef3f9;
+
+    padding:40px;
+
+}
+
+.placement-title{
+
+    text-align:center;
+
+    font-size:42px;
+
+    color:#1e3a8a;
+
+    margin-bottom:10px;
+
+}
+
+.placement-subtitle{
+
+    text-align:center;
+
+    font-size:18px;
+
+    color:#666;
+
+    margin-bottom:40px;
+
+}
