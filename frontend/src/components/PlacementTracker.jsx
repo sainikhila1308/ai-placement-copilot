@@ -23,7 +23,7 @@ const [editingJob, setEditingJob] = useState(null);
       const token = localStorage.getItem("token");
 
       const res = await axios.get(
-        "http://localhost:5000/api/jobs",
+        "`${import.meta.env.VITE_API_URL}/api/jobs",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -42,7 +42,7 @@ const [editingJob, setEditingJob] = useState(null);
       const token = localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:5000/api/jobs",
+        `${import.meta.env.VITE_API_URL}/api/jobs`,
         {
           company,
           role,
@@ -70,7 +70,7 @@ const [editingJob, setEditingJob] = useState(null);
       const token = localStorage.getItem("token");
 
       await axios.delete(
-        `http://localhost:5000/api/jobs/${id}`,
+        `${import.meta.env.VITE_API_URL}/api/jobs/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -89,7 +89,7 @@ const [editingJob, setEditingJob] = useState(null);
       const token = localStorage.getItem("token");
 
       await axios.put(
-        `http://localhost:5000/api/jobs/${id}`,
+        `${import.meta.env.VITE_API_URL}/api/jobs/${id}`,
         {
           status: newStatus,
         },
@@ -131,7 +131,7 @@ const saveChanges = async () => {
 
         await axios.put(
 
-            `http://localhost:5000/api/jobs/${editingJob._id}`,
+          `${import.meta.env.VITE_API_URL}/api/jobs/${editingJob._id}`,
 
             {
                 company: editingJob.company,

@@ -51,7 +51,7 @@ function Signup() {
 
             await axios.post(
 
-                "http://localhost:5000/api/users/send-otp",
+                `${import.meta.env.VITE_API_URL}/api/users/send-otp`,
 
                 {
 
@@ -97,7 +97,7 @@ function Signup() {
 
             await axios.post(
 
-                "http://localhost:5000/api/users/verify-otp",
+                `${import.meta.env.VITE_API_URL}/api/users/verify-otp`,
 
                 {
 
@@ -152,7 +152,7 @@ function Signup() {
 
             await axios.post(
 
-                "http://localhost:5000/api/users/signup",
+                `${import.meta.env.VITE_API_URL}/api/users/signup`,
 
                 {
 
